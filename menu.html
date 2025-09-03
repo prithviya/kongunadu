@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kongu Nadu Restaurant</title>
+    <link rel="stylesheet" href="assets/css/lenis.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="custom-container">
+                <div class="header-two">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.svg" width="120" alt="menu_page" loading="lazy">
+                    </a>
+                </div>
+                <div class="header-three">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="events.html">Events</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order-online.html">Order Online</a>
+                    <a href="reservation.html">Reservation</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="hamburger-btn" onclick="hamburgerToggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-shadow" onclick="hamburgerToggle()"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="inner-banner">
+            <h1><span>Menu</span><br><span>of Kongunadu</span></h1>
+            <img src="assets/images/icons/breadcrumb-shape.webp" alt="menu_page" loading="lazy">
+            <img src="assets/images/new/menu.webp" alt="menu_page" loading="lazy">
+        </section>
+
+        <section class="menu-list">
+            <div class="custom-container">
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(0)">Chicken Starter <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken 65</h3>
+                                    <span></span>
+                                    <p>$13.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Lollipop</h3>
+                                    <span></span>
+                                    <p>$13.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Pallipalayam Kozhi Varuval</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Nei Podi Kozhi</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chef's Special Chicken Monica</h3>
+                                    <span></span>
+                                    <p>$15.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Chinthamani</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(1)">Mutton Starter <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mutton Kola Urandai</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mutton Nei Chukka</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(2)">Seafood Starter <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Fish 65</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Fish Fingers</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Prawn 65</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Vanjaram Tawa Fish Fry</h3>
+                                    <span></span>
+                                    <p>$17.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(3)">Veg Starter <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Gobi 65</h3>
+                                    <span></span>
+                                    <p>$12.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Gobi Manchurian</h3>
+                                    <span></span>
+                                    <p>$12.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Paneer Fingers</h3>
+                                    <span></span>
+                                    <p>$13.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Paneer Monica</h3>
+                                    <span></span>
+                                    <p>$13.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(4)">Egg <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kalakki</h3>
+                                    <span></span>
+                                    <p>$6.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Omelet</h3>
+                                    <span></span>
+                                    <p>$7.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(5)">Rice/Noodles <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Fried Rice (Veg/Egg/Chicken)</h3>
+                                    <span></span>
+                                    <p>$15.99/$16.99/$17.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Noodles (Veg/Egg/Chicken)</h3>
+                                    <span></span>
+                                    <p>$15.99/$16.99/$17.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Curd Rice</h3>
+                                    <span></span>
+                                    <p>$11.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(6)">Biryani <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Madhampatty Special Mutton Biryani</h3>
+                                    <span></span>
+                                    <p>$19.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Madhampatty Special Chicken Biryani</h3>
+                                    <span></span>
+                                    <p>$18.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken 65 Biryani</h3>
+                                    <span></span>
+                                    <p>$18.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kushka Biryani</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Veg Biryani</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(7)">Meals <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Madhampatty Special Keda Virunthu</h3>
+                                    <span></span>
+                                    <p>$34.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(8)">Kids <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Popcorn Chicken</h3>
+                                    <span></span>
+                                    <p>$11.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Button Parotta with Kurma</h3>
+                                    <span></span>
+                                    <p>$11.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(9)">Curry <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Pollachi Kozhi Kulambu</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Butter Chicken Masala</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Tikka Masala</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chef’s Special Mutton Kulambu</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kongunadu Fish Kulambu</h3>
+                                    <span></span>
+                                    <p>$15.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Paneer Butter Masala</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mixed Veg Sabzi</h3>
+                                    <span></span>
+                                    <p>$13.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(10)">Tandoori <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Tandoori Chicken</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kongunadu Grill Chicken</h3>
+                                    <span></span>
+                                    <p>$16.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Tikka</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Malai Tikka</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Tandoori Paneer</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(11)">Bread <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Parotta</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kothu Parotta (Veg/Egg/Chicken)</h3>
+                                    <span></span>
+                                    <p>$13.99/$14.99/$15.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Butter Naan</h3>
+                                    <span></span>
+                                    <p>$3.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Butter Roti</h3>
+                                    <span></span>
+                                    <p>$3.49</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Butter Chapathi</h3>
+                                    <span></span>
+                                    <p>$3.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(12)">Dosa <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Chicken Kari Dosa</h3>
+                                    <span></span>
+                                    <p>$14.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mutton Kari Dosa</h3>
+                                    <span></span>
+                                    <p>$15.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kal Dosa</h3>
+                                    <span></span>
+                                    <p>$9.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Ghee Dosa</h3>
+                                    <span></span>
+                                    <p>$9.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(13)">Desert <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <!--<div class="home-menu-set">-->
+                            
+                        <!--    <div class="home-menu-detail">-->
+                        <!--        <div class="home-menu-title">-->
+                        <!--            <h3>Lychee Sandesh (Weekend only)</h3>-->
+                        <!--            <span></span>-->
+                        <!--            <p>$6.99</p>-->
+                        <!--        </div>-->
+                        <!--        <p></p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <!--<div class="home-menu-set">-->
+                            
+                        <!--    <div class="home-menu-detail">-->
+                        <!--        <div class="home-menu-title">-->
+                        <!--            <h3>Bread Malpua</h3>-->
+                        <!--            <span></span>-->
+                        <!--            <p>$6.99</p>-->
+                        <!--        </div>-->
+                        <!--        <p></p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <!--<div class="home-menu-set">-->
+                            
+                        <!--    <div class="home-menu-detail">-->
+                        <!--        <div class="home-menu-title">-->
+                        <!--            <h3>Ice Cream</h3>-->
+                        <!--            <span></span>-->
+                        <!--            <p>$4.99</p>-->
+                        <!--        </div>-->
+                        <!--        <p></p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <!--<div class="home-menu-set">-->
+                            
+                        <!--    <div class="home-menu-detail">-->
+                        <!--        <div class="home-menu-title">-->
+                        <!--            <h3>Coconut Ice Cream Karupatti Halwa Sizzler</h3>-->
+                        <!--            <span></span>-->
+                        <!--            <p>$9.99</p>-->
+                        <!--        </div>-->
+                        <!--        <p></p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Jigarthanda Shot</h3>
+                                    <span></span>
+                                    <p>$7.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mini Falooda</h3>
+                                    <span></span>
+                                    <p>$7.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Elaneer Karupatti Halwa</h3>
+                                    <span></span>
+                                    <p>$5.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Vetrilai Payasam</h3>
+                                    <span></span>
+                                    <p>$5.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(14)">Beverages <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Lime Soda</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Kuluki Sarbath</h3>
+                                    <span></span>
+                                    <p>$5.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Rose Milk</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Mango Lassi</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <!--<div class="home-menu-set">-->
+                            
+                        <!--    <div class="home-menu-detail">-->
+                        <!--        <div class="home-menu-title">-->
+                        <!--            <h3>Badam Milk</h3>-->
+                        <!--            <span></span>-->
+                        <!--            <p>$4.99</p>-->
+                        <!--        </div>-->
+                        <!--        <p></p>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Butter Milk</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Soda</h3>
+                                    <span></span>
+                                    <p>$2.49</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Water Bottle</h3>
+                                    <span></span>
+                                    <p>$2.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Masala Chai</h3>
+                                    <span></span>
+                                    <p>$3.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Coffee</h3>
+                                    <span></span>
+                                    <p>$3.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-list-set">
+                    <h2 onclick="menuDrop(15)">Accompaniments<span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>
+                    <div class="home-menu-card">
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Makkai Beeda</h3>
+                                    <span></span>
+                                    <p>$2.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="home-menu-set">
+                            
+                            <div class="home-menu-detail">
+                                <div class="home-menu-title">
+                                    <h3>Special Dry Fruit Beeda</h3>
+                                    <span></span>
+                                    <p>$4.99</p>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="menu-list-set">-->
+                <!--    <h2 onclick="menuDrop(17)">Madhampatty Special Keda Virunthu <span><img src="assets/images/icons/down-arrow.svg" width="13" alt="menu_page" loading="lazy"></span></h2>-->
+                <!--    <div class="home-menu-card">-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Elaneer Karupatti Halwa</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p>$34.99</p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Kozhi Chaaru</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Chefs Special Mutton or Chicken Biryani</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Curd Pachidi</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>White rice</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Chefs Special Mutton kulambu</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Kongunadu Chicken Kulambu</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Kongunadu Fish Kulambu</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Pacha Puli Rasam</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Mutton Kola Urundai / Mutton Nei Chukka</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Chicken Chinthamani</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Vanjaram Meen Varuval</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Kulgand</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <div class="home-menu-set">-->
+                            
+                <!--            <div class="home-menu-detail">-->
+                <!--                <div class="home-menu-title">-->
+                <!--                    <h3>Vettrilai payasam</h3>-->
+                <!--                    <span></span>-->
+                <!--                    <p></p>-->
+                <!--                </div>-->
+                <!--                <p></p>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+            </div>
+        </section>
+
+    </main>
+
+    <div class="preloader">
+        <img src="assets/images/logo/logo.svg" alt="menu_page" loading="lazy">
+    </div>
+    
+    <footer>
+        <section class="footer-one">
+            <div class="footer-one-set">
+                <div class="home-menu-seal">
+                    <div class="home-menu-logo">
+                        <img src="assets/images/icons/logo-symbol.svg" alt="menu_page" loading="lazy">
+                    </div>
+                    <div class="home-menu-symbol">
+                        <span style="margin-left: -0.34375em; transform: rotate(-174.748deg);">K</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-163.767deg);">O</span>
+                        <span style="margin-left: -0.390625em; transform: rotate(-152.069deg);">N</span>
+                        <span style="margin-left: -0.359375em; transform: rotate(-140.61deg);">G</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-129.39deg);">U</span>
+                        <span style="margin-left: -0.390625em; transform: rotate(-117.692deg);">N</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(-106.711deg);">A</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-95.9682deg);">D</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-84.5093deg);">U</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-76.87deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-73.0504deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-69.2308deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-65.4111deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-61.5915deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-57.7719deg);">&nbsp;</span>
+                        <span style="margin-left: -0.1875em; transform: rotate(-52.9973deg);">-</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-48.2228deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-44.4032deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-40.5836deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-36.7639deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-32.9443deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-29.1247deg);">&nbsp;</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(-22.2016deg);">B</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(-12.4138deg);">Y</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-5.72944deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-1.90981deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(1.90981deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(5.72944deg);">&nbsp;</span>
+                        <span style="margin-left: -0.46875em; transform: rotate(14.8011deg);">M</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(26.9761deg);">A</span>
+                        <span style="margin-left: -0.375em; transform: rotate(37.7188deg);">D</span>
+                        <span style="margin-left: -0.40625em; transform: rotate(49.6552deg);">H</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(60.8753deg);">A</span>
+                        <span style="margin-left: -0.46875em; transform: rotate(73.0504deg);">M</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(84.9867deg);">P</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(94.7745deg);">A</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(104.562deg);">T</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(114.111deg);">T</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(123.66deg);">Y</span>
+                        <span style="margin-left: -0.125em; transform: rotate(130.345deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(134.164deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(137.984deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(141.804deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(145.623deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(149.443deg);">&nbsp;</span>
+                        <span style="margin-left: -0.1875em; transform: rotate(154.218deg);">-</span>
+                        <span style="margin-left: -0.125em; transform: rotate(158.992deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(162.812deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(166.631deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(170.451deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(174.271deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(178.09deg);">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Quick Links</h2>
+                <div>
+                    <a href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order-online.html">Order Online</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Our Kitchen & Culture</h2>
+                <div>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & conditions</a>
+                    <a href="">Career</a>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Visit. Call. Connect.</h2>
+                <div>
+                    <p>A. <a href="https://maps.app.goo.gl/1BDWSmDytiraem4V7" target="_blank">1136 S De Anza Blvd, Suite A, San Jose, CA 95129</a></p>
+                    <p>T. <a href="tel:+16692517262">+1 (669) 251 7262</a></p>
+                    <p>M. <a href="mailto:admin@kongunadu.us">admin@kongunadu.us</a></p>
+                    <div class="footer-one-set-soc">
+                        <p>Follow Us:</p>
+                        <a href="https://www.instagram.com/kongunadu_restaurant?igsh=YWNxODhyZWo4djg1" target="_blank"><img src="assets/images/icons/instagram.svg" alt="menu_page" loading="lazy"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-two">
+            <p>© Kongunadu Restaurant 2025, All rights reserved</p>
+            <p>Drum and Spill</p>
+        </section>
+    </footer>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

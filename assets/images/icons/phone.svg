@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="75.5"
+   height="75.5"
+   viewBox="0 0 18.12 18.12"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="phone.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.989517"
+     inkscape:cx="43.390974"
+     inkscape:cy="51.808622"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier"
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.12;stroke-dasharray:none;stroke-opacity:1"
+     transform="translate(-2.94,-2.9399971)">
+    <path
+       d="M 3,5.5 C 3,14.0604 9.93959,21 18.5,21 c 0.3862,0 0.7691,-0.0141 1.1483,-0.0419 0.4351,-0.0319 0.6526,-0.0478 0.8507,-0.1618 0.164,-0.0944 0.3195,-0.2618 0.4017,-0.4323 C 21,20.1582 21,19.9181 21,19.438 V 16.6207 C 21,16.2169 21,16.015 20.9335,15.842 20.8749,15.6891 20.7795,15.553 20.6559,15.4456 20.516,15.324 20.3262,15.255 19.9468,15.117 L 16.74,13.9509 c -0.4415,-0.1605 -0.6623,-0.2408 -0.8717,-0.2272 -0.1847,0.012 -0.3624,0.0751 -0.5134,0.1821 -0.1712,0.1213 -0.292,0.3227 -0.5337,0.7256 L 14,16 C 11.3501,14.7999 9.2019,12.6489 8,10 L 9.36863,9.17882 C 9.77145,8.93713 9.97286,8.81628 10.0942,8.64506 10.2012,8.49408 10.2643,8.31637 10.2763,8.1317 10.2899,7.92227 10.2096,7.70153 10.0491,7.26005 L 8.88299,4.05321 C 8.745,3.67376 8.67601,3.48403 8.55442,3.3441 8.44701,3.22049 8.31089,3.12515 8.15802,3.06645 7.98496,3 7.78308,3 7.37932,3 H 4.56201 C 4.08188,3 3.84181,3 3.63598,3.09925 3.4655,3.18146 3.29814,3.33701 3.2037,3.50103 3.08968,3.69907 3.07375,3.91662 3.04189,4.35173 3.01413,4.73086 3,5.11378 3,5.5 Z"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.12;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

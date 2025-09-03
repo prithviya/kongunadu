@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kongu Nadu Restaurant</title>
+    <link rel="stylesheet" href="assets/css/lenis.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="custom-container">
+                <div class="header-two">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.svg" width="120" alt="pic_contact_page" loading="lazy">
+                    </a>
+                </div>
+                <div class="header-three">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order-online.html">Order Online</a>
+                    <a href="reservation.html">Reservation</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="hamburger-btn" onclick="hamburgerToggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-shadow" onclick="hamburgerToggle()"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="inner-banner">
+            <h1><span>Contact</span><br><span>Us</span></h1>
+            <img src="assets/images/icons/breadcrumb-shape.webp" alt="pic_contact_page" loading="lazy">
+            <img src="assets/images/new/contact.webp" alt="pic_contact_page" loading="lazy">
+        </section>
+
+        <section class="contact-main">
+            <div class="custom-container">
+                <div class="contact-main-lft">
+                    <h2>Let's Start a Conversation</h2>
+                    <div>
+                        <p>A. <a href="https://maps.app.goo.gl/1BDWSmDytiraem4V7">1136 S De Anza Blvd, Suite A, San Jose, CA 95129</a></p>
+             <p>T. <a href="tel:+1 (669) 251-72620">+1 (669) 251-7262</a></p>
+                        <p>M. <a href="mailto:">kongunaduusa@gmail.com</a></p>
+                        <div class="footer-one-set-soc">
+                            <p>Follow Us:</p>
+                            <a href="https://www.instagram.com/kongunadu_restaurant?igsh=YWNxODhyZWo4djg1" target="_blank"><img src="assets/images/iconresponseMsgs/instagram.svg" alt="pic_contact_page" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-main-ryt">
+                    <form onsubmit="contactValidation(event)" id="contactForm" action="" class="contact-main-form">
+                        <div class="contact-form-set">
+                            <input type="text" name="name" id="" placeholder="Name">
+                            <img src="assets/images/icons/person.svg" alt="pic_contact_page" loading="lazy">
+                            <span></span>
+                        </div>
+                        <div class="contact-form-set">
+                            <input type="tel" name="phone" id="" placeholder="Phone number">
+                            <img src="assets/images/icons/phone.svg" alt="pic_contact_page" loading="lazy">
+                            <span></span>
+                        </div>
+                        <div class="contact-form-set">
+                            <input type="email" name="email" id="" placeholder="Email id">
+                            <img src="assets/images/icons/envelope.svg" alt="pic_contact_page" loading="lazy">
+                            <span></span>
+                        </div>
+                        <div class="contact-form-set">
+                            <input type="text" name="subject" id="" placeholder="Subject">
+                            <span></span>
+                        </div>
+                        <div class="contact-form-set">
+                            <textarea name="message" id="" cols="30" placeholder="Your message"></textarea>
+                        </div>
+                        <input class="link-tp-one" type="submit" value="submit">
+                        <p id="responseMsg"></p>
+                    </form>
+                </div>
+                <div class="contact-main-lft-mb contact-main-lft">
+                    <div>
+                        <p>A. <a href="https://maps.app.goo.gl/1BDWSmDytiraem4V7">1136 S De Anza Blvd, Suite A, San Jose, CA 95129</a></p>
+                        <p>T. <a href="tel:+1 (669) 251-72620">+1 (669) 251-7262</a></p>
+                        <p>M. <a href="mailto:">kongunaduusa@gmail.com</a></p>
+                        <div class="footer-one-set-soc">
+                            <p>Follow Us:</p>
+                            <a href="https://www.instagram.com/kongunadu_restaurant?igsh=YWNxODhyZWo4djg1" target="_blank"><img src="assets/images/icons/instagram.svg" alt="pic_contact_page" loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4488.117133145837!2d-122.03520430239944!3d37.30512968289491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb51b44009e5d%3A0x5d2426560600d50f!2s1136%20A%20S%20De%20Anza%20Blvd%2C%20San%20Jose%2C%20CA%2095129%2C%20USA!5e0!3m2!1sen!2sin!4v1743675140293!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <div class="preloader">
+        <img src="assets/images/logo/logo.svg" alt="pic_contact_page" loading="lazy">
+    </div>
+    
+    <footer>
+        <section class="footer-one">
+            <div class="footer-one-set">
+                <div class="home-menu-seal">
+                    <div class="home-menu-logo">
+                        <img src="assets/images/icons/logo-symbol.svg" alt="pic_contact_page" loading="lazy">
+                    </div>
+                    <div class="home-menu-symbol">
+                        <span style="margin-left: -0.34375em; transform: rotate(-174.748deg);">K</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-163.767deg);">O</span>
+                        <span style="margin-left: -0.390625em; transform: rotate(-152.069deg);">N</span>
+                        <span style="margin-left: -0.359375em; transform: rotate(-140.61deg);">G</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-129.39deg);">U</span>
+                        <span style="margin-left: -0.390625em; transform: rotate(-117.692deg);">N</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(-106.711deg);">A</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-95.9682deg);">D</span>
+                        <span style="margin-left: -0.375em; transform: rotate(-84.5093deg);">U</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-76.87deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-73.0504deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-69.2308deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-65.4111deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-61.5915deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-57.7719deg);">&nbsp;</span>
+                        <span style="margin-left: -0.1875em; transform: rotate(-52.9973deg);">-</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-48.2228deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-44.4032deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-40.5836deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-36.7639deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-32.9443deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-29.1247deg);">&nbsp;</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(-22.2016deg);">B</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(-12.4138deg);">Y</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-5.72944deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(-1.90981deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(1.90981deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(5.72944deg);">&nbsp;</span>
+                        <span style="margin-left: -0.46875em; transform: rotate(14.8011deg);">M</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(26.9761deg);">A</span>
+                        <span style="margin-left: -0.375em; transform: rotate(37.7188deg);">D</span>
+                        <span style="margin-left: -0.40625em; transform: rotate(49.6552deg);">H</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(60.8753deg);">A</span>
+                        <span style="margin-left: -0.46875em; transform: rotate(73.0504deg);">M</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(84.9867deg);">P</span>
+                        <span style="margin-left: -0.328125em; transform: rotate(94.7745deg);">A</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(104.562deg);">T</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(114.111deg);">T</span>
+                        <span style="margin-left: -0.3125em; transform: rotate(123.66deg);">Y</span>
+                        <span style="margin-left: -0.125em; transform: rotate(130.345deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(134.164deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(137.984deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(141.804deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(145.623deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(149.443deg);">&nbsp;</span>
+                        <span style="margin-left: -0.1875em; transform: rotate(154.218deg);">-</span>
+                        <span style="margin-left: -0.125em; transform: rotate(158.992deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(162.812deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(166.631deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(170.451deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(174.271deg);">&nbsp;</span>
+                        <span style="margin-left: -0.125em; transform: rotate(178.09deg);">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Quick Links</h2>
+                <div>
+                    <a href="about.html">About</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order-online.html">Order Online</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Our Kitchen & Culture</h2>
+                <div>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & conditions</a>
+                    <a href="">Career</a>
+                </div>
+            </div>
+            <div class="footer-one-set">
+                <h2>Visit. Call. Connect.</h2>
+                <div>
+                    <p>A. <a href="https://maps.app.goo.gl/1BDWSmDytiraem4V7" target="_blank">1136 S De Anza Blvd, Suite A, San Jose, CA 95129</a></p>
+                    <p>T. <a href="tel:+16692517262">+1 (669) 251 7262</a></p>
+                    <p>M. <a href="mailto:admin@kongunadu.us">admin@kongunadu.us</a></p>
+                    <div class="footer-one-set-soc">
+                        <p>Follow Us:</p>
+                        <a href="https://www.instagram.com/kongunadu_restaurant?igsh=YWNxODhyZWo4djg1" target="_blank"><img src="assets/images/icons/instagram.svg" alt="pic_contact_page" loading="lazy"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-two">
+            <p>© Kongunadu Restaurant 2025, All rights reserved</p>
+            <p>Drum and Spill</p>
+        </section>
+    </footer>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

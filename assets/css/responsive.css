@@ -1,0 +1,500 @@
+@media only screen and (max-width:1560px) {
+
+}
+
+@media only screen and (max-width:1440px) {
+
+}
+
+@media only screen and (max-width:1320px) {
+    .home-menu .custom-container {
+        gap: 4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-menu-lft {
+        max-width: 400px;
+        width: 80%;
+    }
+
+    .home-menu-ryt {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .about-res-content {
+        margin-left: 0;
+    }
+
+    .menu-list .custom-container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .home-about .custom-container {
+        justify-content: center;
+    }
+
+    .home-about-lft {
+        width: calc(40% - 4rem);
+    }
+
+    .home-about-cntr {
+        width: calc(60% - 4rem);
+    }
+
+    .home-about-ryt {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .header-two {
+        position: relative;
+        z-index: 3;
+    }
+
+    .header-three {
+        z-index: 2;
+        position: fixed;
+        max-width: 650px;
+        width: 100%;
+        height: 100dvh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        top: 0;
+        right: 0;
+        gap: 2rem;
+        transform: translateX(100%);
+        transition: all 0.5s ease;
+    }
+
+    .header.open .header-three {
+        transform: translateX(0%);
+    }
+
+    .hamburger-btn {
+        display: flex;
+        position: relative;
+        z-index: 3;
+    }
+
+    .menu-shadow {
+        display: block;
+    }
+
+    .header.open .menu-shadow {
+        transform: translateX(0%);
+    }
+
+    .footer-one {
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+
+    .footer-one-set {
+        width: calc(50% - 2rem);
+    }
+
+    .about-res-thumb {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    
+     body, html {
+        overscroll-behavior: none;
+    }
+
+
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    a, p {
+        font-size: 15px;
+    }
+
+    .inner-banner h1 {
+        font-size: 48px;
+    }
+
+    .home-hero-content h2 {
+        font-size: 3rem;
+    }
+
+    .home-hero-content p {
+        font-size: 1rem;
+    }
+    
+      .home-hero {
+    display: none;
+  }
+
+    .home-about {
+        padding: 7rem 0;
+    }
+
+    .home-about .custom-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-about-lft {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .home-about-cntr {
+        width: 100%;
+    }
+
+    .home-menu {
+        padding: 5rem 0;
+    }
+
+    .home-menu-set {
+        padding: 1rem 0;
+        min-height: 60px;
+    }
+
+    .home-menu-title h3 {
+        font-size: 16px;
+    }
+
+    .home-menu-title span {
+        display: none;
+    }
+
+    .home-gallery {
+        height: 70vh;
+    }
+
+    .home-direction {
+        padding: 5rem 0;
+    }
+
+    .about-res {
+        padding: 5rem 0;
+    }
+
+    .about-res .custom-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .about-res-lft {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .about-res-ryt {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .about-part {
+        padding: 5rem 0;
+    }
+
+    .about-part .custom-container {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .about-part-lft {
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .about-part-ryt {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .about-goal {
+        padding: 5rem 0;
+    }
+
+    .about-goal .custom-container {
+        gap: 3rem;
+    }
+
+    .about-goal-content {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .about-goal-card {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .menu-list {
+        padding: 5rem 0;
+    }
+
+    .menu-list-set > h2 {
+        padding: 1rem;
+        font-size: 20px;
+    }
+
+    .menu-list-set .home-menu-card {
+        padding: 0rem 0.8rem;
+    }
+
+    .menu-list-set.active .home-menu-card {
+        padding: 0.8rem 0.8rem 0.3rem;
+    }
+
+    .menu-list-set .home-menu-set {
+        padding: 0.5rem 0;
+    }
+
+    .order-online {
+        padding: 5rem 0;
+    }
+
+    .order-online .custom-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .order-online-lft {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .order-online-ryt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .order-online-set {
+        align-items: center;
+    }
+
+    .contact-map {
+        padding: 0 0 5rem;
+    }
+
+    .contact-main {
+        padding: 5rem 0;
+    }
+
+    .contact-main .custom-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .contact-main-lft {
+        max-width: 400px;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .contact-main-lft > div {
+        display: none;
+    }
+
+    .contact-main-lft-mb {
+        display: flex;
+    }
+
+    .contact-main-lft-mb > div {
+        display: flex;
+    }
+
+    .contact-main-lft > div div {
+        margin-top: 0;
+    }
+
+    .contact-main-ryt {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .contact-main-form {
+        gap: 0.8rem;
+    }
+
+    .contact-form-set {
+        width: calc(50% - 0.4rem);
+        padding: 0.5rem 0.7rem;
+    }
+
+    .contact-form-set input, .contact-form-set textarea {
+        font-size: 15px;
+    }
+
+    .contact-form-set textarea {
+        height: 140px;
+    }
+
+    .contact-main-form input[type="submit"] {
+        font-size: 15px;
+    }
+
+    .footer-one {
+        padding: 5rem 0 3rem;
+    }
+
+}
+
+@media only screen and (max-width:840px) {
+    
+    
+     body, html {
+        overscroll-behavior: none;
+    }
+
+    
+    .popup-content {
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    
+     body, html {
+        overscroll-behavior: none;
+    }
+
+    
+    .header-two img {
+        width: 100px;
+    }
+
+    .footer-one {
+        flex-direction: column;
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .footer-one-set .home-menu-seal {
+        left: 0rem;
+    }
+
+    .footer-one-set {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 0rem;
+        text-align: center;
+    }
+
+    .footer-one-set > div {
+        gap: 0.5rem;
+    }
+
+    .footer-one-set:nth-child(1) {
+        margin-bottom: 3rem;
+    }
+
+    .footer-one-set-soc {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .footer-two{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inner-banner {
+        aspect-ratio: 5 / 6;
+    }
+
+    .inner-banner h1 {
+        font-size: 33px;
+    }
+
+    .home-hero-content p {
+        max-width: 250px;
+    }
+
+    .home-menu-ryt {
+        gap: 1rem;
+    }
+
+    .home-menu-set {
+        min-height: 58px;
+    }
+
+    .home-menu-title {
+        gap: 5px;
+    }
+
+    .home-menu-title h3 {
+        font-family: jost;
+    }
+
+    .home-menu-ryt .home-menu-title h3 {
+        flex: unset;
+    }
+
+    .home-menu-ryt .home-menu-title p {
+        width: max-content;
+    }
+
+    .home-menu-title h3, .home-menu-title p {
+        font-size: 13px;
+    }
+
+    .home-video .custom-container > h2 {
+        font-size: 14vw;
+        -webkit-text-stroke: 1px #b18745;
+    }
+
+    .home-video-thumb {
+        width: 100%;
+    }
+
+    .menu-list .custom-container {
+        width: calc(100% - 4px);
+    }
+
+    .menu-list-set > h2 {
+        font-size: 16px;
+    }
+
+
+    .coming-soon h1 {
+        font-size: 2rem;
+    }
+
+    .contact-map iframe {
+        aspect-ratio: 6 / 5;
+    }
+
+    .contact-form-set img {
+        width: 14px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+}
+
+@media only screen and (max-width:480px) {
+
+}
+
+@media only screen and (max-width:360px) {
+
+}
